@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Longcat</title>
+    <link rel="stylesheet" href="../css/portal.css">
+    <script defer src="../js/storage.js"></script><script defer src="../js/auth.js"></script>
+</head>
+<body class="auth-page">
+  <a class="back-link" href="index.html">← Kembali ke Home</a>
+      <main class="auth-card">
+         <div class="auth-icon">🐱</div><h1>Welcome Back!</h1><p>Masuk untuk melanjutkan permainanmu</p>
+        <form id="loginForm">
+         <label for="loginUsername">Username</label><input id="loginUsername" required placeholder="Masukkan username">
+         <label for="loginPassword">Password</label><input id="loginPassword" type="password" required placeholder="Masukkan password">
+         <button class="btn primary full" type="submit">Login</button>
+         <p class="form-message" id="loginMessage" aria-live="polite"></p>
+        </form>
+         <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+      </main>
+
+</body>
+</html>

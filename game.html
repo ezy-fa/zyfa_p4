@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longcat vs Fruits</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="game-page">
+    <header class="game-header">
+        <a href="dashboard.html" class="back-button">← Dashboard</a>
+        <h1>Longcat vs Fruits</h1>
+        <button id="restartButton" class="btn secondary" type="button">↻ Ulangi</button>
+    </header>
+    <main class="game-layout">
+    <section class="game-info">
+        <h2>Informasi Game</h2>
+            <div class="info-box"><span> SKOR</span><strong id="score">0</strong></div>
+            <div class="info-box"><span> NYAWA</span><strong id="lives">❤️❤️❤️</strong></div>
+            <div class="info-box"><span> BUAH</span><strong id="fruitCount">0</strong></div>
+            <div class="instruction-box">
+        <h3> Cara Bermain</h3>
+            <p>Gunakan tombol panah atau W, A, S, D untuk menggerakkan Longcat</p>
+            <p>Ambil buah untuk mendapat 10 poin dan membuat Longcat semakin panjang</p>
+            <p>Hindari dinding dan tubuh sendiri. Kamu punya 3 nyawa</p></div>
+      <div id="gameMessage" class="game-message" aria-live="polite">Tekan Mulai Game untuk bermain!</div>
+      <button id="startButton" class="btn primary full" type="button">▶ Mulai Game</button>
+
+      </section>
+    </main>
+
+    <script src="../js/storage.js"></script>
+    <script src="../js/game.js"></script>
+</body>
+</html>
